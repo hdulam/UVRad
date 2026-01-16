@@ -10,6 +10,24 @@ Universidad del Valle de Guatemala
 
 ---
 
+##Para correr el proyecto
+
+compilar usando:
+javac Main.java
+
+correr usando:
+java Main
+
+## Para verificar con JUNIT (Incluido):
+
+compilar usando:
+javac -cp ".:jars/junit-4.13.2.jar:jars/hamcrest-core-1.3.jar" TestRunner.java
+
+correr usando:
+java -cp ".:jars/junit-4.13.2.jar:jars/hamcrest-core-1.3.jar" TestRunner
+
+---
+
 ## Descripción del proyecto
 
 Este proyecto consiste en la implementación de un **radio de carro** que simula su funcionamiento básico.  
