@@ -1,0 +1,42 @@
+# Radio de Carro – Hoja de Trabajo No. 1
+
+Proyecto desarrollado para el curso **Algoritmos y Estructura de Datos**  
+Universidad del Valle de Guatemala  
+
+
+## Integrantes
+- Héctor Duarte - 25939 
+- Edgar Guevara - 251154
+
+---
+
+## Descripción del proyecto
+
+Este proyecto consiste en la implementación de un **radio de carro** que simula su funcionamiento básico.  
+El radio permite encenderse y apagarse, cambiar entre bandas **AM y FM**, avanzar estaciones, y guardar/cargar estaciones utilizando **12 botones de memoria**, tal como un radio real.
+
+El diseño está basado en el uso de **interfaces**, permitiendo que el programa principal funcione con distintas implementaciones de radio sin necesidad de modificaciones significativas.
+
+---
+
+## Funcionalidades principales
+
+- Prender y apagar el radio
+- Cambiar entre AM y FM
+- Avanzar estaciones 
+- Guardar estaciones en botones (1–12)
+- Cargar estaciones desde botones
+- Menú interactivo en consola
+
+---
+
+##  Diseño del sistema
+
+El proyecto utiliza los siguientes componentes:
+
+- **Radio (interface):** Define el comportamiento que debe tener cualquier radio.
+- **RadioCarro:** Implementación concreta de la interface Radio.
+- **Main:** Programa principal que interactúa con el usuario mediante un menú en consola.
+- **JUnit Tests:** Pruebas unitarias para verificar el correcto funcionamiento del radio.
+
+El diagrama UML de clases se subira junto a el doc :D
